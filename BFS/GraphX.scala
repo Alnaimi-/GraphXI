@@ -85,12 +85,18 @@ object GraphX {
     val bfs = initialGraph.pregel(Double.PositiveInfinity, 20)( 
       (id, attr, msg) => math.min(attr, msg), triplet => { 
         if (triplet.srcAttr != Double.PositiveInfinity) { 
-          Iterator((triplet.dstId, ((triplet.srcAttr + 1), triplet.attr))) 
+          var time = triplet.attr.asInstanceOf[(Long, Long)]
+          if(triplet.srcAttr <= time._1.toDouble) {
+          	Iterator((triplet.dstId, time._1.toDouble + 1))
+          }
+          else {
+          	Iterator.empty
+          }
         }
         else { 
           Iterator.empty 
         } 
-      }, (a, b) => math.min(a._1, b._1))
+      }, (a, b) => math.min(a, b))
 
     bfs
   }

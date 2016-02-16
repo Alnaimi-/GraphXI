@@ -30,7 +30,7 @@ object Test {
     var graph4 = GraphX(users, edges4)
 
     // For the Vector Clock wise BFS
-    var edgesClock: RDD[Edge[Long]] = sc.parallelize(Array(Edge(1L, 2L, 1L), Edge(3L, 4L, 2L), Edge(2L, 3L, 3L), Edge(1L, 5L, 4L), Edge(5L, 4L, 4L)))
+    var edgesClock: RDD[Edge[(Long, Long)]] = sc.parallelize(Array(Edge(1L, 2L, (1L, 2L)), Edge(3L, 4L, (2L, 3L)), Edge(2L, 3L, (3L, 4L)), Edge(1L, 5L, (4L, 4L)), Edge(5L, 4L, (5L, 5L))))
     var graphClock = GraphX(users, edgesClock)
 
     // Turn off the 100's of messages
