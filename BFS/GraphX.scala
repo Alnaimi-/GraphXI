@@ -89,6 +89,9 @@ object GraphX {
           if(triplet.srcAttr <= time._1.toDouble) {
           	Iterator((triplet.dstId, time._1.toDouble + 1))
           }
+          else if(triplet.srcAttr <= time._2.toDouble) {
+          	Iterator((triplet.dstId, triplet.srcAttr + 1))
+          }
           else {
           	Iterator.empty
           }
