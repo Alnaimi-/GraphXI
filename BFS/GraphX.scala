@@ -75,6 +75,26 @@ object GraphX {
 
   }
 
+  def shortestPathClock[VD: ClassTag, ED: ClassTag](
+  	graph: Graph[VD, ED]): Graph[Double, ED] = {
+
+    val root: VertexId = 1L
+
+    val initialGraph: Graph[Double, ED] = graph.mapVertices((id, _) => if (id == root) 0.0 else Double.PositiveInfinity)
+
+    val bfs = initialGraph.pregel(Double.PositiveInfinity, 20)( 
+      (id, attr, msg) => math.min(attr, msg), triplet => { 
+        if (triplet.srcAttr != Double.PositiveInfinity) { 
+          Iterator((triplet.dstId, ((triplet.srcAttr + 1), triplet.attr))) 
+        }
+        else { 
+          Iterator.empty 
+        } 
+      }, (a, b) => math.min(a._1, b._1))
+
+    bfs
+  }
+
   /**
    * Original methods for Graph object
    */

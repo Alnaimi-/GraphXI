@@ -16,16 +16,22 @@ object Test {
     val sc  = new SparkContext(sparkConf)
     val ssc = new StreamingContext(sc, Seconds(5))
 
-    // Define an empty Graph object
+    // Define a Static Graph object FROM:
     val users: RDD[(VertexId, String)] = sc.parallelize(Array((1L, "Joe"), (2L, "Jane"), (3L, "Jake"), (4L, "James"), (5L, "FUUUCK")))
+
+    // For the Incremental snapshot wise BFS
     val edges: RDD[Edge[Long]] = sc.parallelize(Array(Edge(1L, 2L, 1L)))
     val edges2: RDD[Edge[Long]] = sc.parallelize(Array(Edge(3L, 4L, 2L)))
     val edges3: RDD[Edge[Long]] = sc.parallelize(Array(Edge(2L, 3L, 3L))) 
     val edges4: RDD[Edge[Long]] = sc.parallelize(Array(Edge(1L, 5L, 4L), Edge(5L, 4L, 4L)))
     var graph = GraphX(users, edges)
-    val graph2 = GraphX(users, edges2)
-    val graph3 = GraphX(users, edges3)
-    val graph4 = GraphX(users, edges4)
+    var graph2 = GraphX(users, edges2)
+    var graph3 = GraphX(users, edges3)
+    var graph4 = GraphX(users, edges4)
+
+    // For the Vector Clock wise BFS
+    var edgesClock: RDD[Edge[Long]] = sc.parallelize(Array(Edge(1L, 2L, 1L), Edge(3L, 4L, 2L), Edge(2L, 3L, 3L), Edge(1L, 5L, 4L), Edge(5L, 4L, 4L)))
+    var graphClock = GraphX(users, edgesClock)
 
     // Turn off the 100's of messages
     Logger.getLogger("org").setLevel(Level.OFF)
@@ -80,6 +86,7 @@ object Test {
             case "addE" => addE(data)
             case "delE" => delE(data)
             case "shortest" =>  shortest()
+            case "shortestC" => shortestClock()
             case _ => 
                 println("The method " + operation + " isn't valid.")
                 if (!spout.tail.isEmpty)
@@ -142,6 +149,12 @@ object Test {
 
         shortest4.vertices.foreach(println(_))
 
+    }
+
+    def shortestClock() {
+        var shortest = GraphX.shortestPathClock(graphClock)
+
+        shortest.vertices.foreach(println(_))
     }
 
     def printGraph() {
