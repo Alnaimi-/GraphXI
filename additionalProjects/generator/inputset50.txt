@@ -1,0 +1,2 @@
+rmvNode 4
+rmvEdge 3 dasd 2
