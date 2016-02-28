@@ -8,9 +8,9 @@ object WriteOutTest{
 
 		var filecount =genDir.listFiles().length;
 		var pw = new PrintWriter(new File("generatedData/inputset"+filecount.toString+".txt"))
-		var count =0;
+		var count = 0;
 		//for(a <- 1 to 100){
-		while(true){
+		while(true) {
 			val gen = genData()
 			pw.write(gen)
 			//println(gen)
