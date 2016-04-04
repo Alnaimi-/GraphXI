@@ -4,10 +4,7 @@ import org.apache.spark._
 import scala.collection.mutable
 import scala.util.control.NonFatal
 import org.apache.spark.rdd.RDD
-<<<<<<< HEAD
 import org.apache.spark.rdd.RDDOperationScope
-=======
->>>>>>> 52133588206b4cef861faecde497be0467536455
 import org.apache.spark.graphx._
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
@@ -47,11 +44,7 @@ object Snapshotter {
 
     args.length match {
       case 2 => stream = ssc.socketTextStream(args(0), args(1).toInt, StorageLevel.MEMORY_AND_DISK_SER)
-<<<<<<< HEAD
       case 1 => stream = ssc.textFileStream("hdfs://moonshot-ha-nameservice/user/bas30/output2/")
-=======
-      case 1 => stream = ssc.textFileStream("hdfs://moonshot-ha-nameservice/user/bas30/output/")
->>>>>>> 52133588206b4cef861faecde497be0467536455
       case _ => println("Incorrect num of args, please refer to readme.md!")
     }
 
@@ -106,7 +99,6 @@ object Snapshotter {
     mainGraph
   }
 
-<<<<<<< HEAD
  def graphRemove (
     graph: Graph[Int, (Long, Long)], 
     rmvEdgeSet: HashSet[String], 
@@ -140,7 +132,7 @@ object Snapshotter {
 		})
 
     GraphX(graph.vertices, newEdges)
-=======
+    
   def graphRemove(
     graph: Graph[Int, (Long, Long)], 
     rmvEdgeSet: HashSet[String], 
@@ -189,7 +181,6 @@ object Snapshotter {
     
     newEdge 
     // Edge(6, 1, (3, Infinity)) => Edge(6, 1, (3, 5))
->>>>>>> 52133588206b4cef861faecde497be0467536455
   }
 
   def graphAdd(
@@ -199,11 +190,7 @@ object Snapshotter {
 
     var edgeArray: Array[Edge[(Long, Long)]] = addEdgeSet.toArray.map(edge => {
       var command = edge.split(" ")
-<<<<<<< HEAD
       Edge(command(1).toLong, command(3).toLong, (timestamp, Long.MaxValue))
-=======
-      Edge(command(1).toLong, command(2).toLong, (timestamp, Long.MaxValue))
->>>>>>> 52133588206b4cef861faecde497be0467536455
     })
 
     var vertArray = addNodeSet.toArray.map(vert => {
@@ -227,13 +214,8 @@ object Snapshotter {
   def saveGraph(){
     mainGraph.edges.foreach(println(_))
 
-<<<<<<< HEAD
     mainGraph.vertices.saveAsTextFile("prev/shortest" + timestamp.toString + "/vertices")
     mainGraph.edges.saveAsTextFile("prev/shortest" + timestamp.toString + "/edges")
-=======
-    mainGraph.vertices.saveAsTextFile("prev/" + timestamp.toString + "/vertices")
-    mainGraph.edges.saveAsTextFile("prev/" + timestamp.toString + "/edges")
->>>>>>> 52133588206b4cef861faecde497be0467536455
   }
 
   def reduceRDD(rdd: RDD[String]): (HashSet[String], HashSet[String], HashSet[String], HashSet[String]) = {
@@ -252,11 +234,14 @@ object Snapshotter {
       val src = split(1)
       var dst = ""
       var msg = ""
+      
+      if(split.length == 3) {
+        dst = split(2)
+      }
 
-<<<<<<< HEAD
       if(split.length > 3) {
-        msg = split(2)
-        dst = split(3)
+        dst = split(2)
+        msg = split(3)
       }
 
       command match {
@@ -270,33 +255,10 @@ object Snapshotter {
           } else if (rmvEdgeSet.contains("rmvEdge " + src + " " + msg + " " + dst)) {
             addNodeSet.add("addNode " + src) //no need to check if they are negated as it is checked above
             addNodeSet.add("addNode " + dst)
-=======
-      if(split.length == 3) {
-        dst = split(2)
-      }
-
-      if(split.length > 3) {
-        dst = split(2)
-        msg = split(3)
-      }
-
-      command match {
-        case "addE" => {
-          if (rmvNodeSet.contains("rmvN " + src)) { // check if the src is removed lower down
-            if (!rmvNodeSet.contains("rmvN " + dst)) { // check if the dst is also removed, if not
-              addNodeSet.add("addN " + dst)
-            }
-          } else if (rmvNodeSet.contains("rmvN " + dst)) { // check if the dst is removed lower down
-            addNodeSet.add("addN " + src)
-          } else if (rmvEdgeSet.contains("rmvE " + src + " " + msg + " " + dst)) {
-            addNodeSet.add("addN " + src) //no need to check if they are negated as it is checked above
-            addNodeSet.add("addN " + dst)
->>>>>>> 52133588206b4cef861faecde497be0467536455
           } else { //if there are no remove nodes or edges then we can add the command to the subset
             addEdgeSet.add(rddArray(i))
           }
         }
-<<<<<<< HEAD
         case "rmvEdge" => {
           if(!addEdgeSet.contains("addEdge " + src + " " + msg + " " + dst) &&
              !rmvNodeSet.contains("rmvNode " + src) && !rmvNodeSet.contains("rmvNode " + dst)) {
@@ -305,16 +267,6 @@ object Snapshotter {
         }
         case "addNode" => if (!rmvNodeSet.contains("rmvNode " + src)) addNodeSet.add(rddArray(i))
         case "rmvNode" => rmvNodeSet.add(rddArray(i)) // rmvNode  can't be contra
-=======
-        case "rmvE" => {
-          if(!addEdgeSet.contains("addE " + src + " " + msg + " " + dst) &&
-             !rmvNodeSet.contains("rmvN " + src) && !rmvNodeSet.contains("rmvN " + dst)) {
-            rmvEdgeSet.add(rddArray(i))
-          }  
-        }
-        case "addN" => if (!rmvNodeSet.contains("rmvN " + src)) addNodeSet.add(rddArray(i))
-        case "rmvN" => rmvNodeSet.add(rddArray(i)) // rmvNode  can't be contra
->>>>>>> 52133588206b4cef861faecde497be0467536455
         case _ => println("The operation " + command + " isn't valid.")
       }
     }
@@ -338,8 +290,4 @@ object Snapshotter {
 
     println("vertex total: " + graph.numVertices.toInt)
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 52133588206b4cef861faecde497be0467536455
