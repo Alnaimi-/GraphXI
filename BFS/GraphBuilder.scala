@@ -39,26 +39,26 @@ object GraphBuilder {
   def fileStream(){
     println("Timestamp: " + timestamp)
 		
-	val batch: RDD[String] = sc.textFile("/user/bas30/output/"+batchCount, 10)		
-	batch.cache()
+    val batch: RDD[String] = sc.textFile("/user/bas30/output/"+batchCount, 10)		
+    batch.cache()
 
-	val rmvEdgeRAW = batch.filter(string => string.contains("rmvEdge"))
-	val rmvNodeRAW = batch.filter(string => string.contains("rmvNode"))
-	val addEdgeRAW = batch.filter(string => string.contains("addEdge"))
-	val addNodeRAW = batch.filter(string => string.contains("addNode"))
+    val rmvEdgeRAW = batch.filter(string => string.contains("rmvEdge"))
+    val rmvNodeRAW = batch.filter(string => string.contains("rmvNode"))
+    val addEdgeRAW = batch.filter(string => string.contains("addEdge"))
+    val addNodeRAW = batch.filter(string => string.contains("addNode"))
 
-	val buildTime = System.currentTimeMillis()
+    val buildTime = System.currentTimeMillis()
 
     mainGraph = graphRemove(mainGraph, rmvEdgeRAW, rmvNodeRAW)
     mainGraph = graphAdd(mainGraph, addEdgeRAW, addNodeRAW)
 	
-	mainGraph.cache
-	status(mainGraph)
+    mainGraph.cache
+    status(mainGraph)
 	
-	println("Build time: " + (System.currentTimeMillis() - buildTime))
+    println("Build time: " + (System.currentTimeMillis() - buildTime))
 
-	timestamp = timestamp+1
-	batchCount = batchCount+1 		
+    timestamp = timestamp+1
+    batchCount = batchCount+1 		
   }
 
   def graphRemove (
