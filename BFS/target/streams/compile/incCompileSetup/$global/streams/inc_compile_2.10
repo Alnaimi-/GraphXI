@@ -19,7 +19,30 @@ name hashing:
 1 items
 0 -> true
 products:
-56 items
+60 items
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$1.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$10.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$11.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$12.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$13.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$14.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$15.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$16.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$17.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$2.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$3.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$4.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$5.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$6.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$7.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$8.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$9.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$graphAdd$1.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$graphAdd$2.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$graphAdd$3.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$saveGraph$1.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$.class
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder.class
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$1.class
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$10.class
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$11.class
@@ -57,27 +80,14 @@ products:
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$saveGraph$1.class
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$.class
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter.class
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$printGraph$1.class
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$printGraph$2.class
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$printGraph$3.class
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$readStream$1.class
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$shortest$1.class
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$shortestClock$1.class
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$.class
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$1.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$2.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$3.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$extractRDD$1.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$graphAdd$1.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$graphAdd$2.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$graphAdd$3.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$reduceRDD$1.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$saveGraph$1.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$.class
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2.class
 binary dependencies:
-28 items
+22 items
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.6.0.jar
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /usr/java/jdk1.7.0_71/jre/lib/rt.jar
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.6.0.jar
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> /homes/bas30/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
@@ -94,18 +104,6 @@ binary dependencies:
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.6.0.jar
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> /homes/bas30/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> /usr/java/jdk1.7.0_71/jre/lib/rt.jar
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.6.0.jar
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.6.0.jar
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /usr/java/jdk1.7.0_71/jre/lib/rt.jar
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.6.0.jar
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.6.0.jar
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /usr/java/jdk1.7.0_71/jre/lib/rt.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -115,11 +113,10 @@ public inherited source dependencies:
 public inherited external dependencies:
 0 items
 member reference internal dependencies:
-4 items
+3 items
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> /homes/bas30/Documents/GraphX/BFS/GraphX.scala
 /homes/bas30/Documents/GraphX/BFS/ShortestPath.scala -> /homes/bas30/Documents/GraphX/BFS/GraphX.scala
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> /homes/bas30/Documents/GraphX/BFS/GraphX.scala
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> /homes/bas30/Documents/GraphX/BFS/GraphX.scala
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> /homes/bas30/Documents/GraphX/BFS/GraphX.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -127,7 +124,30 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-56 items
+60 items
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$1
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$10
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$11
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$12
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$13
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$14
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$15
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$16
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$17
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$2
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$3
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$4
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$5
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$6
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$7
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$8
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$9
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$graphAdd$1
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$graphAdd$2
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$graphAdd$3
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder$$anonfun$saveGraph$1
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> GraphX
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> GraphX$
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> GraphX$$anonfun$1
@@ -165,27 +185,139 @@ class names:
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> Snapshotter$$anonfun$graphAdd$3
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> Snapshotter$$anonfun$reduceRDD$1
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> Snapshotter$$anonfun$saveGraph$1
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Test
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Test$
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Test$$anonfun$printGraph$1
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Test$$anonfun$printGraph$2
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Test$$anonfun$printGraph$3
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Test$$anonfun$readStream$1
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Test$$anonfun$shortest$1
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Test$$anonfun$shortestClock$1
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$$anonfun$1
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$$anonfun$2
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$$anonfun$3
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$$anonfun$extractRDD$1
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$$anonfun$graphAdd$1
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$$anonfun$graphAdd$2
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$$anonfun$graphAdd$3
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$$anonfun$reduceRDD$1
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2$$anonfun$saveGraph$1
 used names:
-686 items
+535 items
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> %
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> +
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> -
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> <
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> <init>
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> ==
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> AnyRef
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Array
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> ClassTag
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Edge
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> FileSystem
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Graph
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphBuilder
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> GraphX
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> HashSet
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Int
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Level
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Logger
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Long
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> OFF
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Ordering
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Path
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Predef
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> RDD
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> SparkConf
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> SparkContext
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> String
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> System
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Tuple2
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Tuple3
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> Unit
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> VertexId
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> _1
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> _2
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> a
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> addEdgeRAW
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> addNodeRAW
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> apache
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> apply
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> att
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> attr
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> augmentString
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> b
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> batch
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> batchCount
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> batchCount_=
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> buildTime
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> cache
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> cogroup
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> collection
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> command
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> contains
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> currentTimeMillis
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> distinct
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> dst
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> dstId
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> edge
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> edges
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> empty
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> exists
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> fileStream
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> filter
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> foreach
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> fs
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> get
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> getLogger
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> graph
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> graphAdd
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> graphRemove
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> graphToGraphOps
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> graphx
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> hadoop
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> hadoopConfiguration
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> initGraph
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> java
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> lang
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> last
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> leftGroup
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> log4j
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> mainGraph
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> mainGraph_=
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> map
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> materializeClassTag
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> math
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> mutable
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> ne
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> newEdges
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> nonEmpty
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> numEdges
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> numVertices
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> org
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> package
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> parallelize
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> println
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> rdd
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> rddToPairRDDFunctions
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> reduceByKey
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> rightGroup
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> rmvEdgeRAW
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> rmvEdges
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> rmvNodeRAW
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> rmvNodes
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> saveAsTextFile
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> saveGraph
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> sc
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> scala
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> setAppName
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> setLevel
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> spark
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> sparkConf
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> split
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> src
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> srcId
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> status
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> str
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> string
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> t
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> textFile
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> timestamp
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> timestamp_=
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> toInt
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> toLong
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> toString
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> union
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> util
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> v
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> vert
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> vertices
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> while$1
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> wrapRefArray
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> x
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> !=
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> +
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> <=
@@ -590,397 +722,116 @@ used names:
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> wrapRefArray
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> x
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> ||
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> +
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> <init>
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> ==
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> AnyRef
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Array
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Calendar
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> ClassTag
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> DStream
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Edge
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> GraphX
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Level
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> List
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Logger
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Long
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> MEMORY_AND_DISK_SER
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> OFF
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Option
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Predef
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> RDD
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Seconds
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> SparkConf
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> SparkContext
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> StorageLevel
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> StreamingContext
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> String
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Test
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Tuple2
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> Unit
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> VertexId
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> addE
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> addEdge
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> addN
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> addNode
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> apache
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> apply
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> args
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> augmentString
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> awaitTermination
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> collect
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> count
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> data
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> delE
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> delN
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> dstId
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> dstream
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> edgeRDD
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> edges
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> edges2
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> edges3
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> edges4
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> edgesClock
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> edgesClock2
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> foreach
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> foreachRDD
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> getLogger
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> graph
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> graph2
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> graph3
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> graph4
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> graphClock
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> graphClock2
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> graphRecursion
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> graph_=
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> graphx
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> head
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> isEmpty
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> java
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> length
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> log4j
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> map
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> materializeClassTag
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> msg
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> name
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> operation
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> org
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> package
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> parallelize
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> println
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> rdd
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> readStream
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> refArrayOps
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> removeEdge
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> removeNode
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> sc
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> scala
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> setAppName
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> setLevel
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> shortest
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> shortest1
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> shortest2
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> shortest3
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> shortest4
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> shortestClock
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> shortestPath
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> shortestPathClock
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> socketTextStream
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> spark
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> sparkConf
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> split
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> spout
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> srcId
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> ssc
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> start
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> storage
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> stream
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> streaming
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> tail
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> textFileStream
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> toInt
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> toList
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> toLong
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> unary_!
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> users
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> util
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> vertex
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> vertices
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> wrapRefArray
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> x
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> &&
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> +
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> -
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> <
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> <init>
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> ==
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> >
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> AnyRef
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Array
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> ArrayBuffer
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> ArrayList
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Boolean
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> ClassTag
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> DStream
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Date
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Edge
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> File
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Graph
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> GraphX
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> HashSet
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Int
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Level
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Logger
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Long
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> MEMORY_AND_DISK_SER
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> NonFatal
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> OFF
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Ordering
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Predef
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> PrintWriter
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> RDD
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Seconds
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> SparkConf
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> SparkContext
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> StorageLevel
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> StreamingContext
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> String
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> System
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Test2
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Tuple2
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Tuple3
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Tuple4
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> Unit
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> VertexId
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> _1
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> _2
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> _3
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> _4
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> a
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> add
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> addEdgeSet
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> addNodeSet
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> apache
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> apply
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> args
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> attr
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> augmentString
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> awaitTermination
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> b
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> by
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> canBuildFrom
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> checkEdge
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> collect
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> collection
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> command
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> contains
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> control
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> count
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> count_=
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> currentTimeMillis
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> dst
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> dstId
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> dstream
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> edge
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> edgeArray
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> edges
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> empty
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> endTime
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> endTime2
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> extractRDD
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> foreach
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> foreachRDD
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> getLogger
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> graph
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> graph1
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> graph2
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> graphAdd
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> graphRemove
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> graphToGraphOps
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> graphx
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> i
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> initEdges
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> initUsers
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> intWrapper
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> intersection
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> io
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> isEmpty
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> java
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> lang
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> length
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> log4j
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> mainGraph
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> mainGraph_=
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> map
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> materializeClassTag
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> math
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> msg
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> mutable
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> newEdges
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> numEdges
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> numVertices
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> org
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> otherE
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> otherV
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> package
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> parallelize
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> parseCommands
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> println
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> rdd
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> rddArray
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> rddToPairRDDFunctions
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> reduceByKey
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> reduceRDD
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> reduced
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> refArrayOps
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> rmvEdgeSet
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> rmvNodeSet
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> saveAsTextFile
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> sc
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> scala
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> setAppName
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> setLevel
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> socketTextStream
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> spark
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> sparkConf
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> split
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> src
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> srcId
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> ssc
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> start
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> startTime
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> startTime2
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> status
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> storage
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> stream
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> streaming
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> textFileStream
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> thisE
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> thisV
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> timestamp
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> timestamp_=
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> to
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> toArray
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> toInt
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> toLong
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> toString
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> unary_!
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> union
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> util
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> vert
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> vertArray
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> vertices
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> wrapRefArray
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> x
 product stamps:
-56 items
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$10.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$11.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$12.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$2.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$3.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$4.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$5$$anonfun$apply$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$5.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$6.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$7.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$8.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$9.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$fromEdgeTuples$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$removeEdge$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$shortestPath$1$$anonfun$apply$2.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$shortestPath$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath$$anonfun$1.class -> lastModified(1456867060000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath$$anonfun$2.class -> lastModified(1456867060000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath$$anonfun$3.class -> lastModified(1456867060000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath$.class -> lastModified(1456867060000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath.class -> lastModified(1456867060000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$1.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$2.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$3.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$4.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$5.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$extractRDD$1.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$graphAdd$1.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$graphAdd$2.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$graphAdd$3.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$reduceRDD$1.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$saveGraph$1.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter.class -> lastModified(1456866321000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$printGraph$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$printGraph$2.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$printGraph$3.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$readStream$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$shortest$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$$anonfun$shortestClock$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test$.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$2.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$3.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$extractRDD$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$graphAdd$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$graphAdd$2.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$graphAdd$3.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$reduceRDD$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$$anonfun$saveGraph$1.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2$.class -> lastModified(1456856182000)
-/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Test2.class -> lastModified(1456856182000)
+60 items
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$1.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$10.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$11.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$12.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$13.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$14.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$15.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$16.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$17.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$2.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$3.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$4.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$5.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$6.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$7.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$8.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$9.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$graphAdd$1.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$graphAdd$2.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$graphAdd$3.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$$anonfun$saveGraph$1.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder$.class -> lastModified(1459781427000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphBuilder.class -> lastModified(1459781426000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$1.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$10.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$11.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$12.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$2.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$3.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$4.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$5$$anonfun$apply$1.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$5.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$6.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$7.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$8.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$9.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$fromEdgeTuples$1.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$removeEdge$1.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$shortestPath$1$$anonfun$apply$2.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$$anonfun$shortestPath$1.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX$.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/GraphX.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath$$anonfun$1.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath$$anonfun$2.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath$$anonfun$3.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath$.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/ShortestPath.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$1.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$2.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$3.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$4.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$5.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$extractRDD$1.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$graphAdd$1.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$graphAdd$2.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$graphAdd$3.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$reduceRDD$1.class -> lastModified(1459779213000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$$anonfun$saveGraph$1.class -> lastModified(1459779213000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter$.class -> lastModified(1459779212000)
+/homes/bas30/Documents/GraphX/BFS/target/scala-2.10/classes/Snapshotter.class -> lastModified(1459779212000)
 source stamps:
-5 items
+4 items
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> hash(cd1f409851fd35b61e21bd9626758d7c071c2b34)
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> hash(cd903dcc86a538e8700921ff2fce91f4a44d0b39)
-/homes/bas30/Documents/GraphX/BFS/ShortestPath.scala -> hash(bbdbdceeb2c995eca125a7b6e6cd9fd2266a17f9)
-/homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> hash(fa833c1cf88a9b572abf5d30afdf6e608bd3863c)
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> hash(d571ace478eba16eb813a94bce830f35a0619a6a)
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> hash(be09306ae8e83ca78cbc96c09a5f6cf50f837ca1)
+/homes/bas30/Documents/GraphX/BFS/ShortestPath.scala -> hash(e03a0d43bf20b4c36199e32c97e911a87fd175f0)
+/homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> hash(e065e236bee888b9a26eebfb49ced9252bd77871)
 binary stamps:
-6 items
+7 items
 /homes/bas30/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> lastModified(1338025419000)
+/homes/bas30/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar -> lastModified(1381127427000)
 /homes/bas30/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> lastModified(1450755479000)
 /homes/bas30/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.6.0.jar -> lastModified(1450755188000)
 /homes/bas30/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.6.0.jar -> lastModified(1450755213000)
 /homes/bas30/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> lastModified(1395179187000)
-/usr/java/jdk1.7.0_71/jre/lib/rt.jar -> lastModified(1442001579000)
+/usr/java/jdk1.7.0_71/jre/lib/rt.jar -> lastModified(1442001578000)
 class names:
-6 items
-/homes/bas30/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> org.apache.log4j.Logger
-/homes/bas30/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> org.apache.spark.rdd.RDD$
-/homes/bas30/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.6.0.jar -> org.apache.spark.graphx.package$
-/homes/bas30/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.6.0.jar -> org.apache.spark.streaming.Seconds$
-/homes/bas30/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.reflect.ClassTag$
+7 items
+/homes/bas30/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> org.apache.log4j.Level
+/homes/bas30/.ivy2/cache/org.apache.hadoop/hadoop-common/jars/hadoop-common-2.2.0.jar -> org.apache.hadoop.fs.FileSystem
+/homes/bas30/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> org.apache.spark.rdd.PairRDDFunctions
+/homes/bas30/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.6.0.jar -> org.apache.spark.graphx.Graph$
+/homes/bas30/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.6.0.jar -> org.apache.spark.streaming.dstream.DStream
+/homes/bas30/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.reflect.package$
 /usr/java/jdk1.7.0_71/jre/lib/rt.jar -> java.lang.Object
 internal apis:
-5 items
+4 items
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDT+DaXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJTEqql0AApiYXRjaENvdW50c3EAfgAMgFgz2nQABm5vdGlmeXNxAH4ADHSxfEJ0AAR3YWl0c3EAfgAM0j4QMHQADSRhc0luc3RhbmNlT2ZzcQB+AAzlM3EhdAAJdGltZXN0YW1wc3EAfgAMzlz5ZXQABmVxdWFsc3NxAH4ADJe/4eJ0AAlzYXZlR3JhcGhzcQB+AAw8EbMydAAMYXNJbnN0YW5jZU9mc3EAfgAMPKsSC3QADHN5bmNocm9uaXplZHNxAH4ADFO/NWd0AAJzY3NxAH4ADJOCJxR0AA0kaXNJbnN0YW5jZU9mc3EAfgAMsyi6+HQABG1haW5zcQB+AAwbpPSmdAAJbm90aWZ5QWxsc3EAfgAM+Ip7GHQACmZpbGVTdHJlYW1zcQB+AAyGPRvrdAAJbWFpbkdyYXBoc3EAfgAMESMhunQADGlzSW5zdGFuY2VPZnNxAH4ADOcfPKp0AAlzcGFya0NvbmZzcQB+AAyLXBTydAACPT1zcQB+AAy59eVMdAAMR3JhcGhCdWlsZGVyc3EAfgAM2hqEIXQABWNsb25lc3EAfgAMGdvTunQABnN0YXR1c3NxAH4ADNdZdjp0AAtncmFwaFJlbW92ZXNxAH4ADKsnNYV0AAh0b1N0cmluZ3NxAH4ADJ9Z3Jd0AAIhPXNxAH4ADF8/OiR0AAhnZXRDbGFzc3NxAH4ADAnvo210AAlpbml0R3JhcGhzcQB+AAzl3qhgdAACbmVzcQB+AAxpRsDKdAACZnNzcQB+AAztc5azdAAIZ3JhcGhBZGRzcQB+AAzqkFYZdAACZXFzcQB+AAwSr0HEdAACIyNzcQB+AAwqBW+PdAAIZmluYWxpemVzcQB+AAxCiK4gdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBZeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAcQB+ADN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHBzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AWUwACWluaGVyaXRlZHEAfgBZTAAHcGFyZW50c3EAfgBZeHEAfgB1c3EAfgBwdXEAfgBUAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBacQB+AGN1cQB+AGQAAAAAc3EAfgBmAHEAfgAldXEAfgBoAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHR0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB0c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCQdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AfXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4Aa3QABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AhFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AdHNxAH4Ag3QABUFycmF5cQB+AIl1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4Ag3QABlN0cmluZ3NxAH4Ah3NxAH4AinVxAH4AjQAAAANzcQB+AI90AARqYXZhc3EAfgCPdAAEbGFuZ3EAfgCUc3EAfgBwdXEAfgBUAAAAAHNxAH4AcHVxAH4AqAAAAAJzcQB+AIN0AAZPYmplY3RxAH4ArHNxAH4Ag3QAA0FueXEAfgCJdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVPhwM8JdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUzR9AmFH9NbYeIb2WJnWNfAccKzQ=
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBxghyqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAABc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwfHPkRXQAD2dyYXBoVG9HcmFwaE9wc3VxAH4ACQAAAEdzcQB+AAtelASOdAAGR3JhcGhYc3EAfgALTQjBxXQABm5vdGlmeXNxAH4AC+2H6jx0AAl1bnBlcnNpc3RzcQB+AAucxn9rdAAbb3V0ZXJKb2luVmVydGljZXMkZGVmYXVsdCQ1c3EAfgALmC4E+3QAC21hcFRyaXBsZXRzc3EAfgAL12ZbxHQAB2FkZE5vZGVzcQB+AAu2ERaDdAAEd2FpdHNxAH4AC+tBulR0AA9hcHBseSRkZWZhdWx0JDRzcQB+AAuPOOsXdAANJGFzSW5zdGFuY2VPZnNxAH4AC9LPhrN0AApncm91cEVkZ2Vzc3EAfgALtnOwinQACG1hcEVkZ2Vzc3EAfgALrz02ZHQABG1hc2tzcQB+AAv06jxZdAARdW5wZXJzaXN0VmVydGljZXNzcQB+AAvzqUKudAALcGFydGl0aW9uQnlzcQB+AAuOyFVKdAAGZXF1YWxzc3EAfgAL3Y8obHQAGGZyb21FZGdlVHVwbGVzJGRlZmF1bHQkM3NxAH4AC9ZesL10ABZzaG9ydGVzdFBhdGgkZGVmYXVsdCQzc3EAfgALzku5uXQAE2Zyb21FZGdlcyRkZWZhdWx0JDRzcQB+AAu9DvLtdAAMYXNJbnN0YW5jZU9mc3EAfgALKhhhQXQADmZyb21FZGdlVHVwbGVzc3EAfgALc1Wl1XQADHN5bmNocm9uaXplZHNxAH4AC6RIbx10AB5hZ2dyZWdhdGVNZXNzYWdlc1dpdGhBY3RpdmVTZXRzcQB+AAun231edAANJGlzSW5zdGFuY2VPZnNxAH4AC+e1P2x0AA9hcHBseSRkZWZhdWx0JDNzcQB+AAv23XWVdAARYWdncmVnYXRlTWVzc2FnZXNzcQB+AAtmRM1LdAAbdW5wZXJzaXN0VmVydGljZXMkZGVmYXVsdCQxc3EAfgALA1e4SXQAEW1hcFJlZHVjZVRyaXBsZXRzc3EAfgALCun4zXQAGGZyb21FZGdlVHVwbGVzJGRlZmF1bHQkNHNxAH4ACx0x3v10AAlub3RpZnlBbGxzcQB+AAsiOznGdAASc3ViZ3JhcGgkZGVmYXVsdCQxc3EAfgALO2MfmHQAA29wc3NxAH4AC8EsBV10AAVjYWNoZXNxAH4AC2HNZ2p0AAxpc0luc3RhbmNlT2ZzcQB+AAu0ek48dAAIc3ViZ3JhcGhzcQB+AAtKB6YfdAAHcmV2ZXJzZXNxAH4AC87FzBJ0ABN1bnBlcnNpc3QkZGVmYXVsdCQxc3EAfgALxzk3Q3QAFW1hcFZlcnRpY2VzJGRlZmF1bHQkM3NxAH4ACwkb1El0AAdwZXJzaXN0c3EAfgAL0w6PDnQAG21hcFJlZHVjZVRyaXBsZXRzJGRlZmF1bHQkM3NxAH4AC7w2hwJ0ABNmcm9tRWRnZXMkZGVmYXVsdCQzc3EAfgALsHaIvnQABjxpbml0PnNxAH4ACwlznNp0AAdhZGRFZGdlc3EAfgALscpFhXQADmlzQ2hlY2twb2ludGVkc3EAfgALf0REn3QADHNob3J0ZXN0UGF0aHNxAH4AC6HUD9N0AAVhcHBseXNxAH4AC7EFfLV0AApyZW1vdmVOb2Rlc3EAfgALT4F3BnQAG2FnZ3JlZ2F0ZU1lc3NhZ2VzJGRlZmF1bHQkM3NxAH4ACxcj6nR0AAI9PXNxAH4AC51q/zF0AAVjbG9uZXNxAH4AC/PLZAJ0AAlmcm9tRWRnZXNzcQB+AAsPQfXadAAYZnJvbUVkZ2VUdXBsZXMkZGVmYXVsdCQ1c3EAfgAL3JDmMHQAEnN1YmdyYXBoJGRlZmF1bHQkMnNxAH4AC8LHEU90ABFzaG9ydGVzdFBhdGhDbG9ja3NxAH4ACwycARF0ABFvdXRlckpvaW5WZXJ0aWNlc3NxAH4AC3juzs10AApjaGVja3BvaW50c3EAfgALWhwBOXQAEmdldENoZWNrcG9pbnRGaWxlc3NxAH4ACwbDzA50AAh0b1N0cmluZ3NxAH4AC+6tpM90AAttYXBWZXJ0aWNlc3NxAH4AC/g5v410AAIhPXNxAH4AC0nX5FB0AA9hcHBseSRkZWZhdWx0JDVzcQB+AAtHklcYdAAKcmVtb3ZlRWRnZXNxAH4AC4624qt0AAVlZGdlc3NxAH4AC/6++gR0AAhnZXRDbGFzc3NxAH4ACwaRD4Z0ABFwZXJzaXN0JGRlZmF1bHQkMXNxAH4AC203cx90AAh0cmlwbGV0c3NxAH4AC4Y6/RF0AAJuZXNxAH4AC2pNRBJ0AAJlcXNxAH4ACwh+zWZ0AAIjI3NxAH4AC5/mGNZ0AAhmaW5hbGl6ZXNxAH4AC3c80sV0AAhoYXNoQ29kZXNxAH4AC7iug4x0AAh2ZXJ0aWNlc3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AKd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAFxAH4AEXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAACc3IAF3hzYnRpLmFwaS5UeXBlUGFyYW1ldGVyZ2lV2+NykGsCAAZbAAthbm5vdGF0aW9uc3EAfgCsTAACaWRxAH4ADEwACmxvd2VyQm91bmR0ABBMeHNidGkvYXBpL1R5cGU7WwAOdHlwZVBhcmFtZXRlcnNxAH4AqUwACnVwcGVyQm91bmRxAH4AuUwACHZhcmlhbmNldAAUTHhzYnRpL2FwaS9WYXJpYW5jZTt4cHVxAH4AsgAAAAB0AAlHcmFwaFguVkRzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwdAAHTm90aGluZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AwHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AzXVxAH4AtgAAAABzcQB+AL50AANBbnlxAH4Axn5yABJ4c2J0aS5hcGkuVmFyaWFuY2UAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAlJbnZhcmlhbnRzcQB+ALh1cQB+ALIAAAAAdAAJR3JhcGhYLkVEcQB+AMJ1cQB+ALYAAAAAcQB+ANNxAH4A135yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhxAH4A1nQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAEHNjYWxhLmRlcHJlY2F0ZWRzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhxAH4AwHNxAH4A43NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCnTAAJaW5oZXJpdGVkcQB+AKdMAAdwYXJlbnRzcQB+AKd4cQB+AMFzcQB+AON1cQB+AKIAAAAAc3EAfgDjdXEAfgCiAAAAAHNxAH4A43VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAFc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgC/WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgDAc3EAfgC+dAAFR3JhcGhzcQB+AMRzcQB+AMd1cQB+AMoAAAAFc3EAfgDMdAADb3Jnc3EAfgDMdAAGYXBhY2hlc3EAfgDMdAAFc3BhcmtzcQB+AMx0AAZncmFwaHhxAH4A0XVxAH4A8AAAAAJzcgAWeHNidGkuYXBpLlBhcmFtZXRlclJlZj/Y4zkALHOwAgABTAACaWRxAH4ADHhxAH4AwHQACUdyYXBoWC5WRHNxAH4BA3QACUdyYXBoWC5FRHNxAH4AvnQADFNlcmlhbGl6YWJsZXNxAH4AxHNxAH4Ax3VxAH4AygAAAAJzcQB+AMxxAH4Az3EAfgDRc3EAfgC+cQB+AQlzcQB+AMRzcQB+AMd1cQB+AMoAAAADc3EAfgDMdAAEamF2YXNxAH4AzHQAAmlvcQB+ANFzcQB+AL50AAZPYmplY3RzcQB+AMRzcQB+AMd1cQB+AMoAAAADc3EAfgDMcQB+ARNzcQB+AMx0AARsYW5ncQB+ANFzcQB+AL5xAH4A1HEAfgEKc3EAfgCkcQB+ALF1cQB+ALIAAAAAc3EAfgC0AHQABkdyYXBoWHVxAH4AtgAAAAB+cQB+AN10AAZNb2R1bGV1cQB+AOAAAAAAc3EAfgDjcQB+AOdzcQB+AONzcQB+AOlzcQB+AON1cQB+AKIAAAAAc3EAfgDjdXEAfgCiAAAAAHNxAH4A43VxAH4A8AAAAARzcQB+AL5xAH4BCXNxAH4AxHNxAH4Ax3VxAH4AygAAAAJzcQB+AMxxAH4Az3EAfgDRc3EAfgC+cQB+AQlzcQB+AMRzcQB+AMd1cQB+AMoAAAADc3EAfgDMcQB+ARNzcQB+AMx0AAJpb3EAfgDRc3EAfgC+cQB+ARdzcQB+AMRzcQB+AMd1cQB+AMoAAAADc3EAfgDMcQB+ARNzcQB+AMxxAH4BHXEAfgDRc3EAfgC+cQB+ANRxAH4BMXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFTM2UUNHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADsvaG9tZXMvYmFzMzAvRG9jdW1lbnRzL0dyYXBoWC9CRlMvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFM2QPcyGpTjocAkh/y/OkfSkTQs5
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBxghyqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAABc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwfHPkRXQAD2dyYXBoVG9HcmFwaE9wc3VxAH4ACQAAAEdzcQB+AAtelASOdAAGR3JhcGhYc3EAfgALTQjBxXQABm5vdGlmeXNxAH4AC+2H6jx0AAl1bnBlcnNpc3RzcQB+AAucxn9rdAAbb3V0ZXJKb2luVmVydGljZXMkZGVmYXVsdCQ1c3EAfgALmC4E+3QAC21hcFRyaXBsZXRzc3EAfgAL12ZbxHQAB2FkZE5vZGVzcQB+AAu2ERaDdAAEd2FpdHNxAH4AC+tBulR0AA9hcHBseSRkZWZhdWx0JDRzcQB+AAuPOOsXdAANJGFzSW5zdGFuY2VPZnNxAH4AC9LPhrN0AApncm91cEVkZ2Vzc3EAfgALtnOwinQACG1hcEVkZ2Vzc3EAfgALrz02ZHQABG1hc2tzcQB+AAv06jxZdAARdW5wZXJzaXN0VmVydGljZXNzcQB+AAvzqUKudAALcGFydGl0aW9uQnlzcQB+AAuOyFVKdAAGZXF1YWxzc3EAfgAL3Y8obHQAGGZyb21FZGdlVHVwbGVzJGRlZmF1bHQkM3NxAH4AC9ZesL10ABZzaG9ydGVzdFBhdGgkZGVmYXVsdCQzc3EAfgALzku5uXQAE2Zyb21FZGdlcyRkZWZhdWx0JDRzcQB+AAu9DvLtdAAMYXNJbnN0YW5jZU9mc3EAfgALKhhhQXQADmZyb21FZGdlVHVwbGVzc3EAfgALc1Wl1XQADHN5bmNocm9uaXplZHNxAH4AC6RIbx10AB5hZ2dyZWdhdGVNZXNzYWdlc1dpdGhBY3RpdmVTZXRzcQB+AAun231edAANJGlzSW5zdGFuY2VPZnNxAH4AC+e1P2x0AA9hcHBseSRkZWZhdWx0JDNzcQB+AAv23XWVdAARYWdncmVnYXRlTWVzc2FnZXNzcQB+AAtmRM1LdAAbdW5wZXJzaXN0VmVydGljZXMkZGVmYXVsdCQxc3EAfgALA1e4SXQAEW1hcFJlZHVjZVRyaXBsZXRzc3EAfgALCun4zXQAGGZyb21FZGdlVHVwbGVzJGRlZmF1bHQkNHNxAH4ACx0x3v10AAlub3RpZnlBbGxzcQB+AAsiOznGdAASc3ViZ3JhcGgkZGVmYXVsdCQxc3EAfgALO2MfmHQAA29wc3NxAH4AC8EsBV10AAVjYWNoZXNxAH4AC2HNZ2p0AAxpc0luc3RhbmNlT2ZzcQB+AAu0ek48dAAIc3ViZ3JhcGhzcQB+AAtKB6YfdAAHcmV2ZXJzZXNxAH4AC87FzBJ0ABN1bnBlcnNpc3QkZGVmYXVsdCQxc3EAfgALxzk3Q3QAFW1hcFZlcnRpY2VzJGRlZmF1bHQkM3NxAH4ACwkb1El0AAdwZXJzaXN0c3EAfgAL0w6PDnQAG21hcFJlZHVjZVRyaXBsZXRzJGRlZmF1bHQkM3NxAH4AC7w2hwJ0ABNmcm9tRWRnZXMkZGVmYXVsdCQzc3EAfgALsHaIvnQABjxpbml0PnNxAH4ACwlznNp0AAdhZGRFZGdlc3EAfgALscpFhXQADmlzQ2hlY2twb2ludGVkc3EAfgALf0REn3QADHNob3J0ZXN0UGF0aHNxAH4AC6HUD9N0AAVhcHBseXNxAH4AC7EFfLV0AApyZW1vdmVOb2Rlc3EAfgALT4F3BnQAG2FnZ3JlZ2F0ZU1lc3NhZ2VzJGRlZmF1bHQkM3NxAH4ACxcj6nR0AAI9PXNxAH4AC51q/zF0AAVjbG9uZXNxAH4AC/PLZAJ0AAlmcm9tRWRnZXNzcQB+AAsPQfXadAAYZnJvbUVkZ2VUdXBsZXMkZGVmYXVsdCQ1c3EAfgAL3JDmMHQAEnN1YmdyYXBoJGRlZmF1bHQkMnNxAH4AC8LHEU90ABFzaG9ydGVzdFBhdGhDbG9ja3NxAH4ACwycARF0ABFvdXRlckpvaW5WZXJ0aWNlc3NxAH4AC3juzs10AApjaGVja3BvaW50c3EAfgALWhwBOXQAEmdldENoZWNrcG9pbnRGaWxlc3NxAH4ACwbDzA50AAh0b1N0cmluZ3NxAH4AC+6tpM90AAttYXBWZXJ0aWNlc3NxAH4AC/g5v410AAIhPXNxAH4AC0nX5FB0AA9hcHBseSRkZWZhdWx0JDVzcQB+AAtHklcYdAAKcmVtb3ZlRWRnZXNxAH4AC4624qt0AAVlZGdlc3NxAH4AC/6++gR0AAhnZXRDbGFzc3NxAH4ACwaRD4Z0ABFwZXJzaXN0JGRlZmF1bHQkMXNxAH4AC203cx90AAh0cmlwbGV0c3NxAH4AC4Y6/RF0AAJuZXNxAH4AC2pNRBJ0AAJlcXNxAH4ACwh+zWZ0AAIjI3NxAH4AC5/mGNZ0AAhmaW5hbGl6ZXNxAH4AC3c80sV0AAhoYXNoQ29kZXNxAH4AC7iug4x0AAh2ZXJ0aWNlc3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AKd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAFxAH4AEXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAACc3IAF3hzYnRpLmFwaS5UeXBlUGFyYW1ldGVyZ2lV2+NykGsCAAZbAAthbm5vdGF0aW9uc3EAfgCsTAACaWRxAH4ADEwACmxvd2VyQm91bmR0ABBMeHNidGkvYXBpL1R5cGU7WwAOdHlwZVBhcmFtZXRlcnNxAH4AqUwACnVwcGVyQm91bmRxAH4AuUwACHZhcmlhbmNldAAUTHhzYnRpL2FwaS9WYXJpYW5jZTt4cHVxAH4AsgAAAAB0AAlHcmFwaFguVkRzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwdAAHTm90aGluZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AwHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmV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
 /homes/bas30/Documents/GraphX/BFS/ShortestPath.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBVM9RaAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFVilF10AAZub3RpZnlzcQB+AAwAkK2fdAAEd2FpdHNxAH4ADFUv3oR0AA0kYXNJbnN0YW5jZU9mc3EAfgAM3QDPpHQABmVxdWFsc3NxAH4ADD0u5r50AAxhc0luc3RhbmNlT2ZzcQB+AAzVkXKfdAAMc3luY2hyb25pemVkc3EAfgAMtkTvunQAAnNjc3EAfgAMF42/LXQADSRpc0luc3RhbmNlT2ZzcQB+AAzx6WC3dAAEbWFpbnNxAH4ADF0jppl0AANzc2NzcQB+AAypNVYzdAAJbm90aWZ5QWxsc3EAfgAMFQM0C3QADGlzSW5zdGFuY2VPZnNxAH4ADE4/bCd0AAlzcGFya0NvbmZzcQB+AAzkMkJOdAAMU2hvcnRlc3RQYXRoc3EAfgAM1lRjinQAAj09c3EAfgAMRX1SKHQABWNsb25lc3EAfgAMCRqlK3QACHRvU3RyaW5nc3EAfgAMlQeEc3QAAiE9c3EAfgAMMmIN+3QACGdldENsYXNzc3EAfgAMVm2sm3QACXJlYWRHcmFwaHNxAH4ADD1ttEN0AAJuZXNxAH4ADL93gCV0AAJlcXNxAH4ADBhCR4h0AAIjI3NxAH4ADOUXIFx0AAhmaW5hbGl6ZXNxAH4ADBAXIKJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AKXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AYHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGVzcQB+AGB1cQB+AEQAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEpxAH4AU3VxAH4AVAAAAABzcQB+AFYAcQB+AB91cQB+AFgAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIB1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBteHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBbdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB0WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBkc3EAfgBzdAAFQXJyYXlxAH4AeXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBzdAAGU3RyaW5nc3EAfgB3c3EAfgB6dXEAfgB9AAAAA3NxAH4Af3QABGphdmFzcQB+AH90AARsYW5ncQB+AIRzcQB+AGB1cQB+AEQAAAAAc3EAfgBgdXEAfgCYAAAAAnNxAH4Ac3QABk9iamVjdHEAfgCcc3EAfgBzdAADQW55cQB+AHl1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUzQLIAR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA7L2hvbWVzL2JhczMwL0RvY3VtZW50cy9HcmFwaFgvQkZTL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS729zussmV7KElp7bmzZ/SJmoX+Q==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBVM9RaAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFVilF10AAZub3RpZnlzcQB+AAwAkK2fdAAEd2FpdHNxAH4ADFUv3oR0AA0kYXNJbnN0YW5jZU9mc3EAfgAM3QDPpHQABmVxdWFsc3NxAH4ADD0u5r50AAxhc0luc3RhbmNlT2ZzcQB+AAzVkXKfdAAMc3luY2hyb25pemVkc3EAfgAMtkTvunQAAnNjc3EAfgAMF42/LXQADSRpc0luc3RhbmNlT2ZzcQB+AAzx6WC3dAAEbWFpbnNxAH4ADF0jppl0AANzc2NzcQB+AAypNVYzdAAJbm90aWZ5QWxsc3EAfgAMFQM0C3QADGlzSW5zdGFuY2VPZnNxAH4ADE4/bCd0AAlzcGFya0NvbmZzcQB+AAzkMkJOdAAMU2hvcnRlc3RQYXRoc3EAfgAM1lRjinQAAj09c3EAfgAMRX1SKHQABWNsb25lc3EAfgAMCRqlK3QACHRvU3RyaW5nc3EAfgAMlQeEc3QAAiE9c3EAfgAMMmIN+3QACGdldENsYXNzc3EAfgAMVm2sm3QACXJlYWRHcmFwaHNxAH4ADD1ttEN0AAJuZXNxAH4ADL93gCV0AAJlcXNxAH4ADBhCR4h0AAIjI3NxAH4ADOUXIFx0AAhmaW5hbGl6ZXNxAH4ADBAXIKJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AKXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AYHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGVzcQB+AGB1cQB+AEQAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEpxAH4AU3VxAH4AVAAAAABzcQB+AFYAcQB+AB91cQB+AFgAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIB1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBteHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBbdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB0WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBkc3EAfgBzdAAFQXJyYXlxAH4AeXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBzdAAGU3RyaW5nc3EAfgB3c3EAfgB6dXEAfgB9AAAAA3NxAH4Af3QABGphdmFzcQB+AH90AARsYW5ncQB+AIRzcQB+AGB1cQB+AEQAAAAAc3EAfgBgdXEAfgCYAAAAAnNxAH4Ac3QABk9iamVjdHEAfgCcc3EAfgBzdAADQW55cQB+AHl1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+Ge+sN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA7L2hvbWVzL2JhczMwL0RvY3VtZW50cy9HcmFwaFgvQkZTL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTgOg1DvyC0w2GZ4yyX6RGof9F18A==
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC2s+Z5AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHFJ0AN0AAZub3RpZnlzcQB+AAyydG7PdAAFY291bnRzcQB+AAzC8eEcdAAEd2FpdHNxAH4ADIe7Vyp0AA0kYXNJbnN0YW5jZU9mc3EAfgAMTWePyHQACXRpbWVzdGFtcHNxAH4ADAQK/750AAZlcXVhbHNzcQB+AAwqmeiEdAAJc2F2ZUdyYXBoc3EAfgAMfr4VBHQADGFzSW5zdGFuY2VPZnNxAH4ADNKiQXt0AAxzeW5jaHJvbml6ZWRzcQB+AAwfp6fidAAKZ3JhcGhFcXVhbHNxAH4ADKz02th0AAJzY3NxAH4ADBPtRbJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMjCRmxHQABG1haW5zcQB+AAwcSRwidAADc3Njc3EAfgAMb1vZSnQACW5vdGlmeUFsbHNxAH4ADM16dT90AApleHRyYWN0UkREc3EAfgAMb4MjeHQACW1haW5HcmFwaHNxAH4ADM7xhG50AAxpc0luc3RhbmNlT2ZzcQB+AAx1AfKxdAAJc3BhcmtDb25mc3EAfgAMHuc7uHQAAj09c3EAfgAMiAVJxnQABWNsb25lc3EAfgAMeUmzRHQABnN0YXR1c3NxAH4ADB7TuKZ0AAlyZWR1Y2VSRERzcQB+AAz0OemldAANcGFyc2VDb21tYW5kc3NxAH4ADIrcpsR0AAtncmFwaFJlbW92ZXNxAH4ADHDDozd0AAtTbmFwc2hvdHRlcnNxAH4ADOKRY+l0AAh0b1N0cmluZ3NxAH4ADLBwAeN0AAIhPXNxAH4ADEdh2sF0AAhnZXRDbGFzc3NxAH4ADOaAZBZ0AAJuZXNxAH4ADEA1jVV0AAlpbml0RWRnZXNzcQB+AAw0i7HTdAAIZ3JhcGhBZGRzcQB+AAyyQMDPdAACZXFzcQB+AAzqtibEdAAJaW5pdFVzZXJzc3EAfgAM8AUSU3QAAiMjc3EAfgAMJKSMpXQACGZpbmFsaXplc3EAfgAMFEPt6nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AYXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgBBdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB4c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGFMAAlpbmhlcml0ZWRxAH4AYUwAB3BhcmVudHNxAH4AYXhxAH4AfXNxAH4AeHVxAH4AXAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AYnEAfgBrdXEAfgBsAAAAAHNxAH4AbgBxAH4AJ3VxAH4AcAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB8dAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AfHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AmHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AIV4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AHN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIxbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHxzcQB+AIt0AAVBcnJheXEAfgCRdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AIt0AAZTdHJpbmdzcQB+AI9zcQB+AJJ1cQB+AJUAAAADc3EAfgCXdAAEamF2YXNxAH4Al3QABGxhbmdxAH4AnHNxAH4AeHVxAH4AXAAAAABzcQB+AHh1cQB+ALAAAAACc3EAfgCLdAAGT2JqZWN0cQB+ALRzcQB+AIt0AANBbnlxAH4AkXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFTM//RxnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvaG9tZXMvYmFzMzAvRG9jdW1lbnRzL0dyYXBoWC9CRlMvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPqDPBz4iptXKr9dMK/fbmCL04Y8
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCLF50sAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAUL+KF0AAZub3RpZnlzcQB+AAwWoMPrdAAEZGVsTnNxAH4ADCrTa/p0AAR3YWl0c3EAfgAMMclP+3QACnJlYWRTdHJlYW1zcQB+AAzTIFbHdAAGZWRnZXMzc3EAfgAM5YfXi3QADSRhc0luc3RhbmNlT2ZzcQB+AAya/hnjdAAEZGVsRXNxAH4ADIBIkSx0AAtlZGdlc0Nsb2NrMnNxAH4ADFfT0eJ0AAZlcXVhbHNzcQB+AAzG0X+DdAANc2hvcnRlc3RDbG9ja3NxAH4ADDxqal10AAxhc0luc3RhbmNlT2ZzcQB+AAwgJnSYdAAGZ3JhcGg0c3EAfgAM3VKISnQABXVzZXJzc3EAfgAM9vMu+XQACnByaW50R3JhcGhzcQB+AAy9trq2dAAMc3luY2hyb25pemVkc3EAfgAMrEMks3QAAnNjc3EAfgAMHVh2NnQADSRpc0luc3RhbmNlT2ZzcQB+AAy1Cx7HdAAEYWRkRXNxAH4ADGHf+tp0AARtYWluc3EAfgAMXhZstHQABmVkZ2VzMnNxAH4ADJcv6LN0AANzc2NzcQB+AAz4j5nCdAAJbm90aWZ5QWxsc3EAfgAMiHOyZ3QABmdyYXBoMnNxAH4ADLYBrmp0AAxpc0luc3RhbmNlT2ZzcQB+AAw3rasDdAAGZ3JhcGgzc3EAfgAMByjzrnQACXNwYXJrQ29uZnNxAH4ADJHDz1x0AAI9PXNxAH4ADBNMzVZ0AAVjbG9uZXNxAH4ADPOulJV0AARUZXN0c3EAfgAM64+5bHQABGFkZE5zcQB+AAySy4w4dAAOZ3JhcGhSZWN1cnNpb25zcQB+AAzKourJdAAIdG9TdHJpbmdzcQB+AAxnPgI3dAAFZ3JhcGhzcQB+AAw0tu72dAAKZ3JhcGhDbG9ja3NxAH4ADG6/ITF0AAIhPXNxAH4ADOAOyp90AAplZGdlc0Nsb2Nrc3EAfgAMtZhkBnQABWVkZ2Vzc3EAfgAML4K5uXQACGdldENsYXNzc3EAfgAMrBxb3nQAC2dyYXBoQ2xvY2syc3EAfgAMc937IHQABmVkZ2VzNHNxAH4ADDKsteR0AAhzaG9ydGVzdHNxAH4ADBq4i650AAJuZXNxAH4ADMK509N0AAJlcXNxAH4ADFyfxMF0AAIjI3NxAH4ADBzL/Vl0AAhmaW5hbGl6ZXNxAH4ADLj87IN0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AR3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AinNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBzTAAJaW5oZXJpdGVkcQB+AHNMAAdwYXJlbnRzcQB+AHN4cQB+AI9zcQB+AIp1cQB+AG4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AHRxAH4AfXVxAH4AfgAAAABzcQB+AIAAcQB+ADN1cQB+AIIAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AjnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AI5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKp1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgCXeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgCFdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCeWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCOc3EAfgCddAAFQXJyYXlxAH4Ao3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCddAAGU3RyaW5nc3EAfgChc3EAfgCkdXEAfgCnAAAAA3NxAH4AqXQABGphdmFzcQB+AKl0AARsYW5ncQB+AK5zcQB+AIp1cQB+AG4AAAAAc3EAfgCKdXEAfgDCAAAAAnNxAH4AnXQABk9iamVjdHEAfgDGc3EAfgCddAADQW55cQB+AKN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUzNlFDR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA7L2hvbWVzL2JhczMwL0RvY3VtZW50cy9HcmFwaFgvQkZTL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTVcazkeOuhbrgTqUvOgw81oGGaag==
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA0xssJAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCxw2vB0AAZub3RpZnlzcQB+AAzYZOLddAAFY291bnRzcQB+AAyxXdyidAAEd2FpdHNxAH4ADKKwyzB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMMQ3kj3QACXRpbWVzdGFtcHNxAH4ADDzXMKp0AAZlcXVhbHNzcQB+AAz+VLyWdAAJc2F2ZUdyYXBoc3EAfgAMqhBDPnQADGFzSW5zdGFuY2VPZnNxAH4ADEEtdCh0AAxzeW5jaHJvbml6ZWRzcQB+AAzmZ3qndAAKZ3JhcGhFcXVhbHNxAH4ADKb82+N0AAJzY3NxAH4ADO9p4ad0AA0kaXNJbnN0YW5jZU9mc3EAfgAM+TctFHQABG1haW5zcQB+AAw8k+U5dAADc3Njc3EAfgAMPEC+u3QACW5vdGlmeUFsbHNxAH4ADOnBH2N0AApleHRyYWN0UkREc3EAfgAMIrH1nHQACW1haW5HcmFwaHNxAH4ADFs7Z310AAxpc0luc3RhbmNlT2ZzcQB+AAwB6ThadAAJc3BhcmtDb25mc3EAfgAMsbeKa3QAAj09c3EAfgAMyf8pP3QABWNsb25lc3EAfgAMe+A1cHQABnN0YXR1c3NxAH4ADE2O7f10AAlyZWR1Y2VSRERzcQB+AAzhsVZqdAANcGFyc2VDb21tYW5kc3NxAH4ADKCqDJl0AAtncmFwaFJlbW92ZXNxAH4ADPhXOi50AAh0b1N0cmluZ3NxAH4ADMWkqlV0AAljaGVja0VkZ2VzcQB+AAy2pmaadAACIT1zcQB+AAze0UTMdAAFVGVzdDJzcQB+AAwQHitpdAAIZ2V0Q2xhc3NzcQB+AAx26YnfdAACbmVzcQB+AAwGJE3JdAAJaW5pdEVkZ2Vzc3EAfgAM058YbnQACGdyYXBoQWRkc3EAfgAM+6PHYnQAAmVxc3EAfgAMBd3gPXQACWluaXRVc2Vyc3NxAH4ADB/WzYV0AAIjI3NxAH4ADFBcK+N0AAhmaW5hbGl6ZXNxAH4ADFbaBYZ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AR3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AenNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBjTAAJaW5oZXJpdGVkcQB+AGNMAAdwYXJlbnRzcQB+AGN4cQB+AH9zcQB+AHp1cQB+AF4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AGRxAH4AbXVxAH4AbgAAAABzcQB+AHAAcQB+ACd1cQB+AHIAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AfnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AH5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJp1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgCHeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgB1dAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCOWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgB+c3EAfgCNdAAFQXJyYXlxAH4Ak3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCNdAAGU3RyaW5nc3EAfgCRc3EAfgCUdXEAfgCXAAAAA3NxAH4AmXQABGphdmFzcQB+AJl0AARsYW5ncQB+AJ5zcQB+AHp1cQB+AF4AAAAAc3EAfgB6dXEAfgCyAAAAAnNxAH4AjXQABk9iamVjdHEAfgC2c3EAfgCNdAADQW55cQB+AJN1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUzNlFDR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA7L2hvbWVzL2JhczMwL0RvY3VtZW50cy9HcmFwaFgvQkZTL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS+CTBq6Og8p4y8lsCaX2z1D4N8oQ==
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC2s+Z5AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHFJ0AN0AAZub3RpZnlzcQB+AAyydG7PdAAFY291bnRzcQB+AAzC8eEcdAAEd2FpdHNxAH4ADIe7Vyp0AA0kYXNJbnN0YW5jZU9mc3EAfgAMTWePyHQACXRpbWVzdGFtcHNxAH4ADAQK/750AAZlcXVhbHNzcQB+AAwqmeiEdAAJc2F2ZUdyYXBoc3EAfgAMfr4VBHQADGFzSW5zdGFuY2VPZnNxAH4ADNKiQXt0AAxzeW5jaHJvbml6ZWRzcQB+AAwfp6fidAAKZ3JhcGhFcXVhbHNxAH4ADKz02th0AAJzY3NxAH4ADBPtRbJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMjCRmxHQABG1haW5zcQB+AAwcSRwidAADc3Njc3EAfgAMb1vZSnQACW5vdGlmeUFsbHNxAH4ADM16dT90AApleHRyYWN0UkREc3EAfgAMb4MjeHQACW1haW5HcmFwaHNxAH4ADM7xhG50AAxpc0luc3RhbmNlT2ZzcQB+AAx1AfKxdAAJc3BhcmtDb25mc3EAfgAMHuc7uHQAAj09c3EAfgAMiAVJxnQABWNsb25lc3EAfgAMeUmzRHQABnN0YXR1c3NxAH4ADB7TuKZ0AAlyZWR1Y2VSRERzcQB+AAz0OemldAANcGFyc2VDb21tYW5kc3NxAH4ADIrcpsR0AAtncmFwaFJlbW92ZXNxAH4ADHDDozd0AAtTbmFwc2hvdHRlcnNxAH4ADOKRY+l0AAh0b1N0cmluZ3NxAH4ADLBwAeN0AAIhPXNxAH4ADEdh2sF0AAhnZXRDbGFzc3NxAH4ADOaAZBZ0AAJuZXNxAH4ADEA1jVV0AAlpbml0RWRnZXNzcQB+AAw0i7HTdAAIZ3JhcGhBZGRzcQB+AAyyQMDPdAACZXFzcQB+AAzqtibEdAAJaW5pdFVzZXJzc3EAfgAM8AUSU3QAAiMjc3EAfgAMJKSMpXQACGZpbmFsaXplc3EAfgAMFEPt6nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AYXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgBBdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB4c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGFMAAlpbmhlcml0ZWRxAH4AYUwAB3BhcmVudHNxAH4AYXhxAH4AfXNxAH4AeHVxAH4AXAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AYnEAfgBrdXEAfgBsAAAAAHNxAH4AbgBxAH4AJ3VxAH4AcAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB8dAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AfHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AmHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AIV4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AHN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIxbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHxzcQB+AIt0AAVBcnJheXEAfgCRdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AIt0AAZTdHJpbmdzcQB+AI9zcQB+AJJ1cQB+AJUAAAADc3EAfgCXdAAEamF2YXNxAH4Al3QABGxhbmdxAH4AnHNxAH4AeHVxAH4AXAAAAABzcQB+AHh1cQB+ALAAAAACc3EAfgCLdAAGT2JqZWN0cQB+ALRzcQB+AIt0AANBbnlxAH4AkXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFT4Z76w3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvaG9tZXMvYmFzMzAvRG9jdW1lbnRzL0dyYXBoWC9CRlMvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFOBl4ja+6Ii5om7r+0nO2SUr13hx
 external apis:
 0 items
 source infos:
-5 items
+4 items
+/homes/bas30/Documents/GraphX/BFS/GraphBuilder.scala -> 
+AAAAAAAAAAA=
 /homes/bas30/Documents/GraphX/BFS/GraphX.scala -> 
 AAAAAAAAAAA=
 /homes/bas30/Documents/GraphX/BFS/ShortestPath.scala -> 
 AAAAAAAAAAA=
 /homes/bas30/Documents/GraphX/BFS/Snapshotter.scala -> 
 AAAAAAAAAAA=
-/homes/bas30/Documents/GraphX/BFS/Test.scala -> 
-AAAAAAAAAAA=
-/homes/bas30/Documents/GraphX/BFS/Test2.scala -> 
-AAAAAAAAAAA=
 compilations:
-81 items
+90 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUynu0gd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUynzLtZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUyn61VJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
@@ -1062,3 +913,12 @@ compilations:
 78 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUzPzOWp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
 79 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUzP/0cZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
 80 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUzQLIAR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+81 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+GMAFB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+82 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+Ge+sN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+83 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+GioLl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+84 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+Gjunx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+85 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+Gx2j51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+86 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+G5TUZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+87 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+G6rU51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+88 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+G9Ekl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+89 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU+HAzwl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9ob21lcy9iYXMzMC9Eb2N1bWVudHMvR3JhcGhYL0JGUy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==

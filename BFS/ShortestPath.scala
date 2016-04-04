@@ -25,7 +25,7 @@ object ShortestPath {
 
 		val startTime = System.currentTimeMillis
 
-    val short = GraphX.shortestPathClock(graph)
+    	val short = GraphX.shortestPathClock(graph)
 
 		println("Time taken: " + ((System.currentTimeMillis - startTime) / 1000))
 		

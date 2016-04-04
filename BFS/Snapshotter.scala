@@ -99,7 +99,7 @@ object Snapshotter {
     mainGraph
   }
 
- def graphRemove(
+ def graphRemove (
     graph: Graph[Int, (Long, Long)], 
     rmvEdgeSet: HashSet[String], 
     rmvNodeSet: HashSet[String]): Graph[Int, (Long, Long)] = {
