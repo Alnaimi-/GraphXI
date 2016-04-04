@@ -104,85 +104,36 @@ object Snapshotter {
     rmvEdgeSet: HashSet[String], 
     rmvNodeSet: HashSet[String]): Graph[Int, (Long, Long)] = {
 		
-		val edgeSet = rmvEdgeSet.map(string => {
-			val split = string.split(" ")
-			val srcId = split(1).toLong
-			val dstId = split(3).toLong
+    val edgeSet = rmvEdgeSet.map(string => {
+      val split = string.split(" ")
+      val srcId = split(1).toLong
+      val dstId = split(3).toLong
 
-			(srcId, dstId)
-		})
+      (srcId, dstId)
+    })
 
     val nodeSet = rmvNodeSet.map(str => str.split(" ")(1).toLong)
 		
-		val t = timestamp
+    val t = timestamp
 
     var newEdges = graph.edges.map(edge => {
-			val src = edge.srcId
-			val dst = edge.dstId
-			var att = edge.attr
+      val src = edge.srcId
+      val dst = edge.dstId
+      var att = edge.attr
 
-			if(att._2 ==  Long.MaxValue) {
-				if(edgeSet.contains(src, dst))
-					att = (att._1, t)
-				else if(nodeSet.contains(src) || nodeSet.contains(dst))
-					att = (att._1, t)
-			}
+      if(att._2 ==  Long.MaxValue) {
+        if(edgeSet.contains(src, dst))
+        att = (att._1, t)
+	else if(nodeSet.contains(src) || nodeSet.contains(dst))
+	att = (att._1, t)
+      }
 
-			Edge(src, dst, att)
-		})
+      Edge(src, dst, att)
+    })
 
     GraphX(graph.vertices, newEdges)
-    
-  def graphRemove(
-    graph: Graph[Int, (Long, Long)], 
-    rmvEdgeSet: HashSet[String], 
-    rmvNodeSet: HashSet[String]): Graph[Int, (Long, Long)] = {
-
-    var edges: RDD[Edge[(Long, Long)]] = graph.edges.map(edge => checkVertex(checkEdge(edge, rmvEdgeSet), rmvNodeSet))
-
-    GraphX(graph.vertices, edges)
   }
-
-  def checkEdge(edge: Edge[(Long, Long)], rmvEdgeSet: HashSet[String]): Edge[(Long, Long)] = {
-    var newEdge = edge
     
-    rmvEdgeSet.foreach(string => {
-      val split = string.split(" ")
-      val srcId = split(1).toLong
-      val dstId = split(2).toLong
-
-      if((edge.srcId == srcId) && (edge.dstId == dstId)) {
-        val attr = edge.attr.asInstanceOf[(Long, Long)]
-        if(attr._2 == Long.MaxValue)
-          newEdge = Edge(srcId, dstId, (attr._1, timestamp)) 
-        else {
-          newEdge = Edge(srcId, dstId, (attr._1, attr._2))
-        }
-      } 
-    })
-    
-    newEdge
-  }
-
-  def checkVertex(edge: Edge[(Long, Long)], rmvNodeSet: HashSet[String]): Edge[(Long, Long)] = {
-    var newEdge = edge
-    
-    rmvNodeSet.foreach(string => {
-      var id = string.split(" ")(1).toLong
-      
-      if(edge.srcId == id || edge.dstId == id) {
-        if(edge.attr._2 == Long.MaxValue)
-          newEdge = Edge(edge.srcId, edge.dstId, (edge.attr._1, timestamp)) 
-      }
-      else {
-        newEdge = Edge(edge.srcId, edge.dstId, (edge.attr._1, edge.attr._2))
-      }
-    })
-    
-    newEdge 
-    // Edge(6, 1, (3, Infinity)) => Edge(6, 1, (3, 5))
-  }
-
   def graphAdd(
     graph: Graph[Int, (Long, Long)], 
     addEdgeSet: HashSet[String], 
