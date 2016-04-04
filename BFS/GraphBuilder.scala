@@ -10,7 +10,7 @@ import org.apache.log4j.Logger
 import org.apache.log4j.Level
 import scala.collection.mutable.HashSet
 import org.apache.hadoop.fs.Path
-
+import java.nio.file.{Paths, Files}
 object GraphBuilder {
   val sparkConf = new SparkConf().setAppName("GraphBuilder")
   val sc = new SparkContext(sparkConf)
@@ -28,7 +28,8 @@ object GraphBuilder {
 
   def main(args: Array[String]) {
     while(true){			
-      if(fs.exists(new org.apache.hadoop.fs.Path("/user/bas30/output/"+batchCount))){
+      //if(fs.exists(new org.apache.hadoop.fs.Path("/user/bas30/output/"+batchCount))){
+      if(Files.exists(Paths.get("output/"+batchCount))){
         fileStream()
       }
 
@@ -39,7 +40,7 @@ object GraphBuilder {
   def fileStream(){
     println("Timestamp: " + timestamp)
 		
-    val batch: RDD[String] = sc.textFile("/user/bas30/output/"+batchCount, 10)		
+    val batch: RDD[String] = sc.textFile("output/"+batchCount, 10)		
     batch.cache()
 
     val rmvEdgeRAW = batch.filter(string => string.contains("rmvEdge"))
@@ -144,7 +145,6 @@ object GraphBuilder {
   }
 
   def saveGraph(){
-    mainGraph.edges.foreach(println(_))
 
     mainGraph.vertices.saveAsTextFile("BFS/prev/shortest" + timestamp.toString + "/vertices")
     mainGraph.edges.saveAsTextFile("BFS/prev/shortest" + timestamp.toString + "/edges")

@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/homes/bas30/Documents/GraphX/BFS/}bfs...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/mirate/Downloads/Spark/masters/GraphXI/BFS/}bfs...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: hgraph#hgraph_2.10;2.0[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for hgraph#hgraph_2.10;2.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies hgraph#hgraph_2.10;2.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e9af21b[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@560a6243[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -1211,7 +1211,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.inject.extensions#guice-servlet;3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.8.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-jaxrs;1.8.3 [compile->compile(*)][0m
@@ -2616,11 +2615,12 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scalap;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scalap;2.10.0 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.0[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
@@ -2635,7 +2635,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -2805,10 +2804,10 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile][0m
@@ -3184,17 +3183,21 @@
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.fommil.netlib#core;1.1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2[0m
 [0m[[0mdebug[0m] [0m	found com.github.fommil.netlib#core;1.1.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.f2j#arpack_combined_all;0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.f2j#arpack_combined_all;0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.f2j#arpack_combined_all;0.1[0m
 [0m[[0mdebug[0m] [0m	found net.sourceforge.f2j#arpack_combined_all;0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.spark-project.spark#unused;1.0.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.spark-project.spark#unused;1.0.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.spark#spark-core_2.10;1.6.0 [runtime->runtime(*)][0m
@@ -4151,7 +4154,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.inject.extensions#guice-servlet;3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.8.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-jaxrs;1.8.3 [compile->compile(*)][0m
@@ -4730,6 +4732,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
@@ -4741,7 +4744,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -4805,10 +4807,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -5915,6 +5917,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
@@ -5926,6 +5930,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
@@ -6875,7 +6881,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.inject.extensions#guice-servlet;3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.8.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-jaxrs;1.8.3 [compile->compile(*)][0m
@@ -7454,6 +7459,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
@@ -7465,7 +7471,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -7529,10 +7534,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -8639,6 +8644,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
@@ -8650,6 +8657,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
@@ -9602,7 +9611,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.inject.extensions#guice-servlet;3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.8.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-jaxrs;1.8.3 [compile->compile(*)][0m
@@ -10181,6 +10189,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
@@ -10192,7 +10201,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -10256,10 +10264,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -11366,6 +11374,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
@@ -11377,6 +11387,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
@@ -12328,7 +12340,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.inject.extensions#guice-servlet;3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.8.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-jaxrs;1.8.3 [compile->compile(*)][0m
@@ -12907,6 +12918,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
@@ -12918,7 +12930,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -12982,10 +12993,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -14092,6 +14103,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
@@ -14103,6 +14116,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
@@ -15054,7 +15069,6 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: org.apache.hadoop#hadoop-annotations;2.2.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.inject.extensions#guice-servlet;3.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mexcluding dependency: io.netty#netty;3.6.2.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.8.3 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.sun.jersey#jersey-json;1.9->org.codehaus.jackson#jackson-jaxrs;1.8.3 [compile->compile(*)][0m
@@ -15633,6 +15647,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->com.thoughtworks.paranamer#paranamer;2.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-core_2.10;3.2.10->org.scala-lang#scalap;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
@@ -15644,7 +15659,6 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.0->org.scala-lang#scala-reflect;2.10.0 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scalap;2.10.0->org.scala-lang#scala-compiler;2.10.0 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->org.json4s#json4s-core_2.10;3.2.10 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.3.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.json4s#json4s-jackson_2.10;3.2.10->com.fasterxml.jackson.core#jackson-databind;2.4.4 [compile->compile(*)][0m
@@ -15708,10 +15722,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.5 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4->com.fasterxml.jackson.core#jackson-core;2.4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;15.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile[0m
@@ -16818,6 +16832,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [compile->master(compile)][0m
@@ -16829,6 +16845,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.apache.xbean#xbean-asm5-shaded;4.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->com.github.fommil.netlib#core;1.1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.github.fommil.netlib#core;1.1.2->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->net.sourceforge.f2j#arpack_combined_all;0.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.apache.spark#spark-graphx_2.10;1.6.0->org.spark-project.spark#unused;1.0.0 [runtime->runtime(*)][0m
@@ -16853,8 +16871,8 @@
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies hgraph#hgraph_2.10;2.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies hgraph#hgraph_2.10;2.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -16862,10 +16880,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
@@ -16874,18 +16892,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies hgraph#hgraph_2.10;2.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies hgraph#hgraph_2.10;2.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->master(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies hgraph#hgraph_2.10;2.0->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies hgraph#hgraph_2.10;2.0->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies hgraph#hgraph_2.10;2.0->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
@@ -17020,24 +17038,25 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-underfs-local;0.8.2!tachyon-underfs-local.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3138ms :: artifacts dl 142ms[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 compile produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 runtime produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 test produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 provided produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 optional produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 compile-internal produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 runtime-internal produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 test-internal produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 plugin produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 sources produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 docs produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 pom produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 scala-tool produced in /homes/bas30/Documents/GraphX/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (3138ms resolve - 142ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2761ms :: artifacts dl 74ms[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 compile produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 runtime produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 test produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 provided produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 optional produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 compile-internal produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 runtime-internal produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 test-internal produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 plugin produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 sources produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 docs produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 pom produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for hgraph#hgraph_2.10;2.0 scala-tool produced in /home/mirate/Downloads/Spark/masters/GraphXI/BFS/target/resolution-cache/reports/hgraph-hgraph_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2761ms resolve - 74ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mScala version was updated by one of library dependencies:[0m
 [0m[[33mwarn[0m] [0m	* org.scala-lang:scala-library:(2.10.4, 2.10.0) -> 2.10.5[0m
