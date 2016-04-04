@@ -1,6 +1,0 @@
-(1,Jok){
-    ((1,Jok),(2,Jas),Hello)
-}
-(2,Jas){
-    ((1,Jok),(2,Jas),Hello)
-}
