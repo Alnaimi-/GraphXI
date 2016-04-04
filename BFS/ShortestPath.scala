@@ -19,6 +19,7 @@ object ShortestPath {
   // Turn off the 100's of messages
   Logger.getLogger("org").setLevel(Level.OFF)
   Logger.getLogger("akka").setLevel(Level.OFF)
+<<<<<<< HEAD
 	
   def main(args: Array[String]) {
     val graph = readGraph(args(0).toLong, args(1).toLong)
@@ -36,12 +37,31 @@ object ShortestPath {
     var end = (Math.ceil(t2/5.0) * 5).toInt.toLong
 
     val vertx = sc.textFile("prev/shortest" + end + "/vertices")
+=======
+
+  def main(args: Array[String]) {
+    val graph = readGraph(args(0).toLong, args(1).toLong)
+
+    val short = GraphX.shortestPathClock(graph)
+    short.vertices.foreach(println)
+  }
+
+  def readGraph(t1: Long, t2: Long): Graph[Int, (Long, Long)] = {
+    var start = t1
+    var end   = Math.ceil(t2/5) * 5
+
+    val vertx = sc.textFile("prev/" + end.toString + "/vertices")
+>>>>>>> 52133588206b4cef861faecde497be0467536455
     val vertRDD: RDD[(VertexId, Int)] = vertx.map(line => {
       val split = line.split(",")
       (split(0).substring(1).toLong, 0) // and turn back into a Vertex
     })
 
+<<<<<<< HEAD
     val edges = sc.textFile("prev/shortest" + end + "/edges")
+=======
+    val edges = sc.textFile("prev/" + end.toString + "/edges")
+>>>>>>> 52133588206b4cef861faecde497be0467536455
     val edgeRDD: RDD[Edge[(Long, Long)]] = edges.map(line => {
       // Edge(1,3,(4,8)) => Array(1,3,4,8)
       val split = line.replaceAll("Edge|[()]", "").split(",")
@@ -51,6 +71,7 @@ object ShortestPath {
       val att = (split(2).toLong, split(3).toLong)
 
       Edge(src, dst, att)
+<<<<<<< HEAD
     }).filter(e => e.attr._1 >= t1 && e.attr._1 < t2)
 
 		println("Num of vertices: " + vertRDD.count)
@@ -59,3 +80,18 @@ object ShortestPath {
     GraphX(vertRDD, edgeRDD)
   }
 }
+=======
+    }).filter(e => {
+      (e.attr.asInstanceOf[(Long,Long)]._1 >= src.toLong 
+        && e.attr.asInstanceOf[(Long,Long)]._1 <= dst.toLong)
+    })
+
+    GraphX(vertRDD, edgeRDD)
+  }
+
+  def shortestClock() {
+    var shortest = GraphX.shortestPathClock(graphClock2)
+    shortest.vertices.foreach(println(_))
+  }
+}
+>>>>>>> 52133588206b4cef861faecde497be0467536455

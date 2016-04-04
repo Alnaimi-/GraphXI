@@ -20,7 +20,7 @@ import scala.collection.mutable.{ArrayBuffer, HashSet}
 import java.util.ArrayList
 import java.io._
 
-object Test2 {
+object snapshotter {
   val sparkConf = new SparkConf().setAppName("Snapshotter")
     
   val sc  = new SparkContext(sparkConf)
@@ -35,7 +35,7 @@ object Test2 {
   // Create empty graph
   val initUsers: RDD[(VertexId, Int)] = sc.parallelize(Array.empty[(VertexId, Int)])
   val initEdges: RDD[Edge[(Long, Long)]] = sc.parallelize(Array.empty[Edge[(Long, Long)]])
-  var mainGraph: Graph[Int, (Long, Long)] = GraphX(initUsers, initEdges)
+  var mainGraph = Graph(initUsers, initEdges)
 
   def main(args: Array[String]) {
 
@@ -43,7 +43,7 @@ object Test2 {
 
     args.length match {
       case 2 => stream = ssc.socketTextStream(args(0), args(1).toInt, StorageLevel.MEMORY_AND_DISK_SER)
-      case 1 => stream = ssc.textFileStream("hdfs://moonshot-ha-nameservice/user/bas30/output2/")
+      case 1 => stream = ssc.textFileStream(args(0))
       case _ => println("Incorrect num of args, please refer to readme.md!")
     }
 
@@ -70,10 +70,11 @@ object Test2 {
 
       println("End...")
       status(mainGraph)
+      saveGraph() // used to save graph, currently off whilst testing, willl probably set some boolean or summin
     })
   }
 
-  def parseCommands(rdd: RDD[String], graph: Graph[Int, (Long, Long)]): Graph[Int, (Long, Long)] = {
+  def parseCommands(rdd: RDD[String], graph: [Int, (Long, Long)]): Graph[Int, (Long, Long)] {
     val startTime = System.currentTimeMillis
 
     // reduce the RDD and return a tuple
@@ -102,13 +103,52 @@ object Test2 {
     rmvEdgeSet: HashSet[String], 
     rmvNodeSet: HashSet[String]): Graph[Int, (Long, Long)] = {
 
-		@transient val newEdges = graph.edges.map(edge => checkEdge(edge, new HashSet[String]()))
+    var edges: RDD[Edge[(Long, Long)]] = graph.edges.map(edge => checkVertex(checkEdge(edge, rmvEdgeSet), rmvNodeSet))
 
-    GraphX(graph.vertices, newEdges)
+    Graph(graph.vertices, edges)
   }
 
   def checkEdge(edge: Edge[(Long, Long)], rmvEdgeSet: HashSet[String]): Edge[(Long, Long)] = {
-		return edge 
+    var newEdge = edge
+    
+    rmvEdgeSet.foreach(string => {
+      val split = string.split(" ")
+      val srcId = split(1).toLong
+      val dstId = split(3).toLong
+
+      if((edge.srcId == srcId) && (edge.dstId == dstId)) {
+        println("Found the Edge in edge checker!")
+        val attr = edge.attr.asInstanceOf[(Long, Long)]
+        if(attr._2 == Long.MaxValue)
+          newEdge = Edge(srcId, dstId, (attr._1, timestamp)) 
+        else {
+          newEdge = Edge(srcId, dstId, (attr._1, attr._2))
+          println("ERROR DONE GOOFED IN THE SHIZZLE MA EDGE NIZZLE.")
+        }
+      } 
+    })
+    
+    newEdge
+  }
+
+  def checkVertex(edge: Edge[(Long, Long)], rmvNodeSet: HashSet[String]): Edge[(Long, Long)] = {
+    var newEdge = edge
+    
+    rmvNodeSet.foreach(string => {
+      var id = string.split(" ")(1).toLong
+      
+      if(edge.srcId == id || edge.dstId == id) {
+        if(edge.attr._2 == Long.MaxValue)
+          newEdge = Edge(edge.srcId, edge.dstId, (edge.attr._1, timestamp)) 
+      }
+      else {
+        newEdge = Edge(edge.srcId, edge.dstId, (edge.attr._1, edge.attr._2))
+      }
+    })
+    
+    newEdge 
+    // Edge(6, 1, (3, Infinity)) => Edge(6, 1, (3, 5))
+    // Edge(2, 6, (4, Infinity)) => Edge(2, 6, (4, 6))
   }
 
   def graphAdd(
@@ -130,7 +170,7 @@ object Test2 {
     var edges = sc.parallelize(edgeArray)
 
     // reduces down to distinct based on edge attribute
-    GraphX(
+    Graph(
       graph.vertices.union(vertices), 
       graph.edges.union(edges)
       .map(x => ((x.srcId, x.dstId, x.attr._2), x))
@@ -142,8 +182,82 @@ object Test2 {
   def saveGraph(){
     mainGraph.edges.foreach(println(_))
 
-    mainGraph.vertices.saveAsTextFile("prev/" + timestamp.toString + "/vertices")
-    mainGraph.edges.saveAsTextFile("prev/" + timestamp.toString + "/edges")
+    // mainGraph.vertices.saveAsTextFile("prev/" + timestamp.toString + "/vertices")
+
+    // mainGraph.edges.saveAsTextFile("prev/" + timestamp.toString + "/edges")
+
+    // MODIFY THIS
+    // val nullWritableClassTag = implicitly[ClassTag[NullWritable]]
+    // val textClassTag = implicitly[ClassTag[Text]]
+    // val r = this.mapPartitions { iter =>
+    //   val text = new Text()
+    //   iter.map { x =>
+    //     text.set(x.toString)
+    //     (NullWritable.get(), text)
+    //   }
+    // }
+    // RDD.rddToPairRDDFunctions(r)(nullWritableClassTag, textClassTag, null)
+    //   .saveAsHadoopFile[TextOutputFormat[NullWritable, Text]](path)
+  }
+
+  // def readGraph(range: (Long, Long)): Graph[VertexId, String] = {
+  //   for (i <- range._1 to range._2) {
+  //     val vertx = sc.textFile("prev/" + i.toString + "/vertices")
+
+  //     val vertRDD: RDD[(VertexId, VertexId)] = vertx.map(line => {
+  //       val split = line.split(",") // split the serialized data
+  //       (split(0).substring(1).toLong, 1L) // and turn back into a Vertex
+  //     })
+
+  //     val edges = sc.textFile("prev/" + i.toString + "/edges")
+  //     val edgeRDD: RDD[Edge[String]] = edges.map(line => {
+  //       val split = line.split(",") // split serialized data
+
+  //       val src = split(0).substring(5).toLong // extract the src node ID
+  //       val dest = split(1).toLong // destination node Id
+  //       val edg = split(2).substring(0, split(2).length() - 1) // and edge information
+
+  //       Edge(src, dest, edg) // create new edge with extracted info
+  //     })
+
+  //     Graph(vertRDD, edgeRDD, 0L) // return new graphs consisting of read in vertices and edges
+  //   }
+  // }
+
+  def closestGraph(givenTime: Array[String]): String = {
+    // Returns time of graph closest to given time
+    val format = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss") // set format of time
+
+    val date = format.parse(givenTime(0) + " " + givenTime(1)).getTime() // turn given time into Unix long
+
+    // Extract list of all graphs in folder prev
+    val prevList = new File("prev").listFiles.toList
+
+    // Set starting values for the difference as Maximum 
+    var difference = Long.MaxValue
+
+    // and chosen graph as empty string
+    var chosen: String = ""
+
+    prevList.foreach(file => {
+      val name = file.getName // get the name (unix time created)
+
+      try {
+        val fileTime = name.toLong // Turn the name back into a unix time 
+        val diff = Math.abs(date - fileTime) // Find the difference to the given time
+
+        // uf the difference is less than current record, set this graph as chosen
+        if (diff < difference) {
+          difference = diff
+          chosen = name
+        }
+
+      } catch {
+        case e: NumberFormatException => {}
+      }
+    })
+
+    chosen
   }
 
   def reduceRDD(rdd: RDD[String]): (HashSet[String], HashSet[String], HashSet[String], HashSet[String]) = {
@@ -160,10 +274,10 @@ object Test2 {
 
       val command = split(0)
       val src = split(1)
-      var dst = ""
       var msg = ""
+      var dst = ""
 
-      if(split.length > 3) {
+      if(split.length > 2) {
         msg = split(2)
         dst = split(3)
       }
@@ -191,7 +305,7 @@ object Test2 {
         }
         case "addNode" => if (!rmvNodeSet.contains("rmvNode " + src)) addNodeSet.add(rddArray(i))
         case "rmvNode" => rmvNodeSet.add(rddArray(i)) // rmvNode  can't be contra
-        case _ => println("The operation " + command + " isn't valid.")
+        case _ = println("The operation " + command + " isn't valid.")
       }
     }
 
