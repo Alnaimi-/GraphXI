@@ -8,9 +8,8 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 import org.apache.log4j.Logger
 import org.apache.log4j.Level
-import scala.collection.mutable.HashSet
 import org.apache.hadoop.fs.Path
-import java.nio.file.{Paths, Files}
+
 object GraphBuilder {
   val sparkConf = new SparkConf().setAppName("GraphBuilder")
   val sc = new SparkContext(sparkConf)
@@ -28,38 +27,36 @@ object GraphBuilder {
 
   def main(args: Array[String]) {
     while(true){			
-      //if(fs.exists(new org.apache.hadoop.fs.Path("/user/bas30/output/"+batchCount))){
-      if(Files.exists(Paths.get("output/"+batchCount))){
+      if(fs.exists(new org.apache.hadoop.fs.Path("/user/bas30/output/"+batchCount))){
         fileStream()
       }
 
-      if(timestamp % 5 == 0) saveGraph() // save graph every 5
+      // if(timestamp % 5 == 0) saveGraph() // save graph every 5
     }
   }
 
   def fileStream(){
     println("Timestamp: " + timestamp)
 		
-    val batch: RDD[String] = sc.textFile("output/"+batchCount, 10)		
-    batch.cache()
+	val batch: RDD[String] = sc.textFile("/user/bas30/output/"+batchCount)		
 
-    val rmvEdgeRAW = batch.filter(string => string.contains("rmvEdge"))
-    val rmvNodeRAW = batch.filter(string => string.contains("rmvNode"))
-    val addEdgeRAW = batch.filter(string => string.contains("addEdge"))
-    val addNodeRAW = batch.filter(string => string.contains("addNode"))
+	val rmvEdgeRAW = batch.filter(string => string.contains("rmvEdge"))
+	val rmvNodeRAW = batch.filter(string => string.contains("rmvNode"))
+	val addEdgeRAW = batch.filter(string => string.contains("addEdge"))
+	val addNodeRAW = batch.filter(string => string.contains("addNode"))
 
-    val buildTime = System.currentTimeMillis()
+	val buildTime = System.currentTimeMillis()
+	mainGraph.cache 
 
-    mainGraph = graphRemove(mainGraph, rmvEdgeRAW, rmvNodeRAW)
-    mainGraph = graphAdd(mainGraph, addEdgeRAW, addNodeRAW)
+  mainGraph = graphRemove(mainGraph, rmvEdgeRAW, rmvNodeRAW)
+  mainGraph = graphAdd(mainGraph, addEdgeRAW, addNodeRAW)
 	
-    mainGraph.cache
-    status(mainGraph)
+	status(mainGraph)
 	
-    println("Build time: " + (System.currentTimeMillis() - buildTime))
+	println("Build time: " + (System.currentTimeMillis() - buildTime))
 
-    timestamp = timestamp+1
-    batchCount = batchCount+1 		
+	timestamp = timestamp+1
+	batchCount = batchCount+1 		
   }
 
   def graphRemove (
@@ -80,39 +77,45 @@ object GraphBuilder {
     val rmvNodes = rmvNodeRAW.map(str => str.split(" ")(1).toLong)
 
     val edges = graph.edges
+		edges.cache
 
-    var newEdges: RDD[Edge[(Long, Long)]] = (edges.map(v => (v.srcId, v)).union(edges.map(v => (v.dstId, v))))
-    .cogroup(rmvNodes.map(v => (v, null)))
-    .filter { case (_, (leftGroup, rightGroup)) => leftGroup.nonEmpty}
-    .map { case (_, (leftGroup, rightGroup)) => {
-      val edge = leftGroup.last
-      val src = edge.srcId
-      val dst = edge.dstId
-      var att = edge.attr
+		var newEdges: RDD[Edge[(Long, Long)]] = edges
+		.map(v => ((v.srcId, v.dstId), v))
+		.cogroup(rmvEdges.map(v => ((v._1, v._2), null)))
+		.values
+		.flatMap { pair => 
+			if(!pair._2.isEmpty) { 
+				pair._1.iterator.map { edge => 
+					val (src, dst) = (edge.srcId, edge.dstId)
+					var att = edge.attr
+		
+				  if(att._2 == Long.MaxValue) 
+						att = (att._1, t)
+	
+  			  Edge(src, dst, att) 
+				}
+			} else { pair._1.iterator.map { identity } }
+		}
+		.map(v => (v.srcId, v))
+		.union(edges.map(v => (v.dstId, v)))
+		.cogroup(rmvNodes.map(v => (v,null)))
+		.values
+		.flatMap { pair => 
+			if(!pair._2.isEmpty) {
+				pair._1.iterator.map { edge => 
+				  val (src, dst) = (edge.srcId, edge.dstId)
+					var att = edge.attr
 
-      if(rightGroup.nonEmpty) {
-        if(att._2 == Long.MaxValue)
-          att = (att._1, t)
-      }
+		  	  if(att._2 == Long.MaxValue)
+  	    		att = (att._1, t)
 
-      Edge(src, dst, att)
-    }}
-    .map(v => ((v.srcId, v.dstId), v))
-    .cogroup(rmvEdges.map(v => ((v._1, v._2), null)))
-    .filter { case (_, (leftGroup, rightGroup)) => leftGroup.nonEmpty}
-    .map { case (_, (leftGroup, rightGroup)) => {
-      val edge = leftGroup.last
-      val src = edge.srcId
-      val dst = edge.dstId
-      var att = edge.attr
-
-      if(rightGroup.nonEmpty) {
-        if(att._2 == Long.MaxValue)
-          att = (att._1, t)
-      }
-
-      Edge(src, dst, att)
-    }}
+		  	  Edge(src, dst, att)
+				}
+			} else { pair._1.iterator.map { identity } }
+		}
+		.map (v => ((v.dstId, v.srcId), v))
+		.reduceByKey((a,b) => if(a.attr._2 < b.attr._2) a else b)
+		.values
 
     GraphX(graph.vertices, newEdges.distinct)
   }
@@ -135,16 +138,18 @@ object GraphBuilder {
     })
 
     // reduces down to distinct based on edge attribute
-    GraphX(
+    Graph(
       graph.vertices.union(vertices), 
-      graph.edges.union(edges)
-      .map(x => ((x.srcId, x.dstId, x.attr._2), x))
+      graph.edges
+			.union(edges)
+      .map(edge => ((edge.srcId, edge.dstId, edge.attr._2), edge))
       .reduceByKey((a, b) => if(a.attr._1 < b.attr._1) a else b)
       .map(_._2)
     )
   }
 
   def saveGraph(){
+    mainGraph.edges.foreach(println(_))
 
     mainGraph.vertices.saveAsTextFile("BFS/prev/shortest" + timestamp.toString + "/vertices")
     mainGraph.edges.saveAsTextFile("BFS/prev/shortest" + timestamp.toString + "/edges")
